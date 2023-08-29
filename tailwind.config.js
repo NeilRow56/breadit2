@@ -5,8 +5,8 @@ module.exports = {
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
   ],
+  darkMode: 'class',
   theme: {
     container: {
       center: true,
@@ -22,23 +22,6 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        transparent: 'transparent',
-        current: 'currentColor',
-        white: '#ffffff',
-        purple: '#3f3cbb',
-        midnight: '#121063',
-        metal: '#565584',
-        tahiti: '#3ab7bf',
-        silver: '#ecebff',
-        'bubble-gum': '#ff77e9',
-        bermuda: '#78dcca',
-        'main-bg': '#2a3447',
-        'soft-bg': '#384256',
-        'dark-bg': '#22b3c',
-        'main-color': '#ffffff',
-        'soft-color': '#ddd',
-        'dark-color': '#2a3447',
-
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

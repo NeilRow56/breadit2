@@ -1,12 +1,11 @@
 export default function Home() {
   return (
-    <main className="bg-blue-900 w-screen h-screen flex items-center">
-     <div className="text-center w-full">
-       <button className="bg-white p-2 px-4 rounded-lg ">
-         Welcome to Home Page
-       </button>
-     </div>
-   </main>
+    <main className=" flex h-screen w-screen items-center">
+      <div className="w-full text-center">
+        <button className="rounded-lg bg-blue-500 p-2 px-4 ">
+          Welcome to Home Page
+        </button>
+      </div>
+    </main>
   )
- }
- 
+}
