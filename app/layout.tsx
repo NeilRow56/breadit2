@@ -21,16 +21,18 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={cn(
         'light bg-white text-slate-900 antialiased',
         inter.className
       )}
-      style={{ colorScheme: 'light' }}
     >
       <body className="min-h-screen bg-slate-50 antialiased">
         <Providers>
           <Navbar />
-          {children}
+          <div className="container mx-auto h-full max-w-7xl  pt-12">
+            {children}
+          </div>
         </Providers>
       </body>
     </html>
